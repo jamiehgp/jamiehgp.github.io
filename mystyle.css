@@ -1,0 +1,132 @@
+body {
+  background-color: #ffc8fd;
+  text-align: justify;
+  color: #8240d6;
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+}
+
+h3 {
+  color: #05570a;
+}
+
+a:link {
+  color: purple;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+a:active {
+  color: hotpink;
+}
+
+.column1 {
+  float: left;
+  width: 15%;
+  font-size: 20px;
+  background-color: #cfb6fc;
+}
+
+.column2 {
+  float: right;
+  width: 85%;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #cfb6fc;
+}
+
+li {
+  display: block;
+  color: #000000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pfp {
+  border: 2px solid #ffffff;
+}
+
+.drop {
+  background-color: #cfb6fc;
+  color: navy;
+  padding: 16px;
+  font-size: 16px;
+  border: none;                              
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #CF6DEF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: navy;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .drop {
+  background-color: purple;
+}
+
+
+#clubs {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+#clubs td, #customers th {
+  border: 1px solid #F5F5E0;
+  padding: 8px;
+}
+
+#clubs tr:nth-child(odd){background-color: #ECE0F5;}
+
+#clubs tr:hover {background-color: #f1f1f1;}
+
+#clubs th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #cfb6fc;
+  color: navy;
+}
+
+
